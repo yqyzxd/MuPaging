@@ -1,0 +1,9 @@
+ext.deps=[:]
+def versions=[:]
+versions.paging="3.0.0-alpha02"
+versions.retrofit="2.9.0"
+versions.lifecycle="2.2.0"
+deps.view_model_ktx="androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle"
+deps.paging_runtime="androidx.paging:paging-runtime-ktx:$versions.paging"
+deps.retrofit="com.squareup.retrofit2:retrofit:$versions.retrofit"
+deps.retrofit_gson="com.squareup.retrofit2:converter-gson:$versions.retrofit"
